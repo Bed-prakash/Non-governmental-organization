@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Home Page</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="./JavaScript/Index.js" defer></script>
+    <style>
+        .HOME{
+            color: rgb(228, 210, 14);
+        }
+    </style>
+</head>
+<body onload="Img()">
+    <nav>
+        <img id="logo" src="./Assets/image/logo.JPG" alt="">
+        <div id="navButton">
+            <a class="HOME" href="#">HOME</a>
+            <a class="ABOUT" href="./HTML/About.html">ABOUT</a>
+            <a class="OUR" href="./HTML/Ourservice.html">OUR NGO SERVICE</a>
+            <a class="DONATION" href="./HTML/Donation.html">DONATION</a>
+            <a class="GALLERY" href="./HTML/Gallery.html">GALLERY</a>
+            <a class="SPONSORS" href="./HTML/Sponsors.html">SPONSORS</a>
+            <a class="CONTECT" href="./HTML/Contact.html">CONTACT</a>
+            <a  id="DOWNLOAD" href="./HTML/Amount.html">DONATE NOW</a>
+        </div>
+    </nav>
+    <a id="up-arrow-con" href="#"><img id="up-arrow" src="./Assets/image/up-arrow.png" alt=""></a>
+    
+    <img id="img1" src="https://media.istockphoto.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.webp?b=1&s=170667a&w=0&k=20&c=9P0Mwd1h7-lLJEROWQS12zNc_HSAxCxK_k0euLl1_yE=" alt="">
+    <div id="text">
+        <h1 style="color: white; font-size: 3vw;" ><span style="background-color: yellow; padding-left: 10vw; color: black;">DO GOOD</span>  INITIATIVE PROJECT</h1>
+        <h3 class="button">CULTIVATING FLOURISHING COMMUNITIES</h3>
+        <button class="button btn" onclick="openContect(1)">CONNECT WITH US</button>
+    </div>
+    <div class="A1Text">
+        <h1>A1 NGO SERVICES</h1>
+        <h3>VISION & MISSION</h3>
+        <p>Our Collaborative Trade model takes direct and fair trade one step further. Coffee is an opportunity to do good, and doing good means we get to support whole communities to make positive change</p>
+        <p>Since 2007, Land of a Thousand Hills Coffee has worked with farmers in Rwanda as co-laborers creating a better future through coffee. We build flourishing communities through holistic solutions, seeking to meet social, economic, and spiritual needs in the most sustainable way possible with each Do Good Initiative Project developed and run by local</p>
+    </div>
+    <div id="ourNgo">
+        <img style="height: 10vw; width: 40vw;" src="./Assets/image/2nd ngo service.JPG" alt="">
+    </div>
+    <div id="img3Con">
+        <div class="subimg3Con"> 
+            <img class="img3" src="./Assets/image/2.webp" alt="">
+            <p class="p">Approved by the Rwandan Ministry of Health, this project supports building a Community Health Clinic.            </p>
+        </div>
+        <div class="subimg3Con">
+            <img class="img3" src="./Assets/image/6.webp" alt="">
+            <p class="p">During the pandernic, food insecurity rose amongst coffee farmers since they couldn't go to work due to travel restrictions.            </p>
+        </div>
+        <div class="subimg3Con">
+            <img class="img3" src="./Assets/image/4.webp" alt="">
+            <p class="p">This ongoing campaign ensures that all of the communities we partner with have easy access to clean water.</p>
+        </div>
+    </div>
+    <div id="galleryContainer">
+        <img style="height: 10vw; width: 45vw;" src="./Assets/image/gallery.JPG" alt="">
+    </div>
+    <div id="img4Con">
+        <img class="img4" src="./Assets/image/10.avif" alt="">
+        <img class="img4" src="./Assets/image/11.avif" alt="">
+        <img class="img4" src="./Assets/image/4.webp" alt="">
+        <img class="img4" src="./Assets/image/54.webp" alt="">
+        <img class="img4" src="./Assets/image/18.avif" alt="">
+        <img class="img4" src="./Assets/image/15.avif" alt="">
+        <img class="img4" src="./Assets/image/16.avif" alt="">
+        <img class="img4" src="./Assets/image/17.avif" alt="">
+    </div>
+    <div id="connectusCon">
+        <div id="connectusSubCon">
+            <img id="connectus"  src="./Assets/image/connectus.JPG" alt="">
+        </div>
+        <div id="iconCon">
+            <img class="iconImg" src="./Assets/icon/twitter.png" alt="">
+            <img class="iconImg" src="./Assets/icon/facebook.png" alt="">
+            <img class="iconImg" src="./Assets/icon/instagram.png" alt="">
+            <img class="iconImg" src="./Assets/icon/linkedin.png" alt="">
+        </div>
+    </div>
+    <div id="storiesCon">
+        <div id="stories">
+            <h1 style="font-size: 4vw; color: white;">STORIES OF IMPACT</h1>
+        </div>
+        <div id="ImgCon">
+            <img class="Img2" src="./Assets/image/3.webp" alt="">
+            <img class="Img2" src="./Assets/image/4.webp" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <img id="footerImg" src="./Assets/image/natureFooter.jpg" alt="">
+            <div id="footerImgTextCon">
+                <h3 style="color: white;">HOW YOU CAN DO GOOD & MAKE A DIFFERENCE</h3>
+                <button class="footerButton" onclick="donate(1)">DONATE NOW</button>
+            </div>
+        </div>
+        <center style="width: 100%; background-color: black;">
+            <div id="footerButtonCon">
+                <span class="foodButton">HOME </span>
+                <span class="foodButton">ABOUT US</span>
+                <span class="foodButton">OUR NGO SERVICES</span>
+                <span class="foodButton">DONATIONS</span>
+                <span class="foodButton">GALLERY</span>
+                <span class="foodButton">SPONSORS</span>
+                <span class="foodButton">CONTACT US</span>
+            </div>
+        </center>
+        <hr>
+        <div id="footerIconCon">
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="./Assets/icon/phone.png" alt="">
+                <p class="footerP">+250782137059</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="./Assets/icon/location.png" alt="">
+                <p class="footerP">A1 NGO SERVICES 23WV+V33, KG 7 Ave, Kigali, Rwanda</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="./Assets/icon/message.png" alt="">
+                <p class="footerP">info@alngo.com</p>
+            </div>
+        </div>
+        <hr>
+        <center><p class="footerP footer">2024 A1 NGO Services. All Rights Reserved.</p></center>
+    </footer>
+    
+</body>
+</html>

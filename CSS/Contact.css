@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#contectCon,#contentTextCon,.contentText{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contectCon{
+    width: 100%;
+    margin-top: 5vw;
+    
+}
+#contentTextCon{
+    width: 50%;
+    height: 43vw;
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;    
+    
+
+
+}
+.contentText{
+    width: 20vw;
+    height: 20vw;
+    /* background-color: red; */
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px black;
+}
+#iframe{
+    margin-top: 5vw;
+    width: 80vw;
+    height: 30vw;
+    position: relative;
+}
+.p{
+    color: black;
+    font-size: 1.7vw;
+}
+
+

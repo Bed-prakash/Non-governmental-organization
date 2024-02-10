@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+form,.subCon,.input3Con{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 40%;
+    height: 55vw;
+    margin-top: 3vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    border-radius: 2vw;
+    box-shadow: 5px 5px 5px black;
+    border: 1px black solid;
+    padding-right: 10vw;
+    overflow: hidden;
+    background-color: rgba(77, 77, 199, 0.212);
+    /* background-color: bisque; */
+    
+}
+.subCon{
+    align-items: self-start;
+    /* margin-left: 10vw; */
+}
+.subInp1{
+    margin-left: 8vw;
+}
+.input3Con{
+    width: 20.5vw;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+    margin-left:8vw;
+}
+.input3{
+    width: 5.4vw;
+    height: 2vw;
+    /* margin-right: 1vw; */
+}
+.input2{
+    width: 9.3vw;
+}
+#button{
+    width: 20.5vw;
+    height: 2.5vw;
+    margin-left: 8vw;
+    box-shadow: 2px 2px 2px black;
+    font-size: 1.4vw;
+    letter-spacing: 0.4vw;
+    font-weight: normal;
+    transition: all 0.5s;
+}
+#button:hover{
+    background-color: rgba(31, 228, 234, 0.951);
+}
+input{
+    padding-left: 0.5vw;
+    height: 2vw;
+    font-size: 1.3vw;
+}
+.input{
+    width: 20vw;
+}
+label{
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Donation Page</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/Donate.css">
+    <script src="../JavaScript/Index.js" defer></script>
+    <style>
+        .DONATION{
+            color: rgb(228, 210, 14);
+        }
+    </style>
+</head>
+<body onload="Img()">
+    <nav>
+        <img id="logo" src="../Assets/image/logo.JPG" alt="">
+        <div id="navButton">
+            <a class="HOME" href="../index.html">HOME</a>
+            <a class="ABOUT" href="./About.html">ABOUT</a>
+            <a class="OUR" href="./Ourservice.html">OUR NGO SERVICE</a>
+            <a class="DONATION" href="./Donation.html">DONATION</a>
+            <a class="GALLERY" href="./Gallery.html">GALLERY</a>
+            <a class="SPONSORS" href="./Sponsors.html">SPONSORS</a>
+            <a class="CONTECT" href="./Contact.html">CONTACT</a>
+            <a  id="DOWNLOAD" href="./Amount.html">DONATE NOW</a>
+        </div>
+    </nav>
+    <a id="up-arrow-con" href="#"><img id="up-arrow" src="../Assets/image/up-arrow.png" alt=""></a>
+    <img id="img1" src="../Assets/image/2.webp" alt="">
+    <div id="text">
+        <h1 style="color: white; font-size: 3vw;" ><span style="background-color: yellow; padding-left: 10vw; color: black;">DONATIONS</span> INITIATIVE PROJECT</h1>
+        <h3 class="button">CULTIVATING FLOURISHING COMMUNITIES</h3>
+        <button class="button btn" onclick="openContect(0)">CONNECT WITH US</button>
+    </div>
+    <div id="donateCon">
+        <h1>Your Donation Will Provide</h1>
+        <div id="donateSubCon">
+            <div class="donate" >
+                <h3>Rs 50</h3>
+                <p>Could purchase a winter coat for one scholar</p>
+            </div>
+            <div class="donate">
+                <h3>Rs 500</h3>
+                <p>Would make it possible to purchase addisional Chromebooks and Pads to enhance scholar learning</p>
+            </div>
+            <div class="donate">
+                <h3>Rs 1000</h3>
+                <p>Could buy a set of school supplies for one scholar for an entire yea </p>
+            </div>
+            <div class="donate">
+                <h3>Rs 2000</h3>
+                <p>Would support the cost of academic celebrations, field lessons, and awards                </p>
+            </div>
+            <div class="donate">
+                <h3>Rs 5000</h3>
+                <p>Could cover the cost of an Extended Learning Opportunity for one schiclar for an entire year</p>
+            </div>
+            <div class="donate">
+                <h3>an other amount</h3>
+            </div>
+        </div>
+    </div>
+    <div id="amountCon">
+        <h1>Select an amount</h1>
+        <div id="amountSubCon">
+            <div onclick="amount('a100')" id="a100" class="amount">
+                <p>RS 100</p>
+            </div>
+            <div onclick="amount('a500')" id="a500" class="amount">
+                <p>RS 500</p>
+            </div>
+            <div onclick="amount('a1000')" id="a1000" class="amount">
+                <p>RS 1000</p>
+            </div>
+            <div onclick="amount('a2000')" id="a2000" class="amount">
+                <p>RS 2000</p>
+            </div>
+            <div onclick="amount('a5000')" id="a5000" class="amount">
+                <p>RS 5000</p>
+            </div>
+            <div onclick="amount('a10000')" id="a10000" class="amount">
+                <p>RS 10000</p>
+            </div>
+            <div onclick="amount('0')"  class="amount">
+                <p>other  </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <img id="footerImg" src="../Assets/image/natureFooter.jpg" alt="">
+            <div id="footerImgTextCon">
+                <h3 style="color: white;">HOW YOU CAN DO GOOD & MAKE A DIFFERENCE</h3>
+                <button class="footerButton" onclick="donate(0)">DONATE NOW</button>
+            </div>
+        </div>
+        <center style="width: 100%; background-color: black;">
+            <div id="footerButtonCon">
+                <span class="foodButton">HOME </span>
+                <span class="foodButton">ABOUT US</span>
+                <span class="foodButton">OUR NGO SERVICES</span>
+                <span class="foodButton">DONATIONS</span>
+                <span class="foodButton">GALLERY</span>
+                <span class="foodButton">SPONSORS</span>
+                <span class="foodButton">CONTACT US</span>
+            </div>
+        </center>
+        <hr>
+        <div id="footerIconCon">
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/phone.png" alt="">
+                <p class="footerP">+250782137059</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/location.png" alt="">
+                <p class="footerP">A1 NGO SERVICES 23WV+V33, KG 7 Ave, Kigali, Rwanda</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/message.png" alt="">
+                <p class="footerP">info@alngo.com</p>
+            </div>
+        </div>
+        <hr>
+        <center><p class="footerP footer">2024 A1 NGO Services. All Rights Reserved.</p></center>
+    </footer>
+</body>
+</html>

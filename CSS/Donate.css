@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#donateCon,.donate,#amountCon,#amountSubCon,.amount{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#donateCon{
+    width: 98vw;
+    margin-top: 7vw;
+    flex-direction: column;
+}
+#donateSubCon{
+    width: 100%;
+    height: 45vw;
+    margin-top: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.277);
+}
+.donate{
+    width: 25%;
+    
+    height: 15vw;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color:white;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 3vw;
+}
+p{
+    text-align: center;
+}
+#amountCon{
+    width: 100%;
+    height: 30vw;
+    /* background-color: bisque; */
+    margin-top: 2vw;
+    flex-direction: column;
+}
+#amountSubCon{
+    width: 95%;
+    height: 15vw;
+}
+.amount{
+    width: 10vw;
+    justify-content: center;
+    height: 10vw;
+    border-radius: 100%;
+    background-color: rgb(23, 235, 235);
+    transition: all 0.5s;
+}
+.amount:hover{
+    transform: scale(1.1);
+}

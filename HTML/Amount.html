@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Donation Input Page</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/Amount.css">
+    <script src="../JavaScript/Amount.js" defer></script>
+
+    <style>
+        /* .DONATION{
+            color: rgb(228, 210, 14);
+        } */
+    </style>
+</head>
+<body onload="getAmount()">
+    <nav>
+        <img id="logo" src="../Assets/image/logo.JPG" alt="">
+        <div id="navButton">
+            <a class="HOME" href="../index.html">HOME</a>
+            <a class="ABOUT" href="./About.html">ABOUT</a>
+            <a class="OUR" href="./Ourservice.html">OUR NGO SERVICE</a>
+            <a class="DONATION" href="./Donation.html">DONATION</a>
+            <a class="GALLERY" href="./Gallery.html">GALLERY</a>
+            <a class="SPONSORS" href="./Sponsors.html">SPONSORS</a>
+            <a class="CONTECT" href="./Contact.html">CONTACT</a>
+            <a  id="DOWNLOAD" href="./Amount.html">DONATE NOW</a>
+        </div>
+    </nav>
+    <a id="up-arrow-con" href="#"><img id="up-arrow" src="../Assets/image/up-arrow.png" alt=""></a>
+    <img id="img1" src="../Assets/image/2.webp" alt="">
+    <div id="text">
+        <h1 style="color: white; font-size: 3vw;" ><span style="background-color: yellow; padding-left: 10vw; color: black;">DONATE</span> INITIATIVE PROJECT</h1>
+        <h3 class="button">CULTIVATING FLOURISHING COMMUNITIES</h3>
+        <button class="button btn" onclick="openContect(0)">CONNECT WITH US</button>
+    </div>
+    <center style="margin-top: 5vw;"><h1>Donor detail</h1></center>
+    <center>
+        <form action="">
+            <div class="subCon subInp1">
+                <label for="">Name</label>
+                <input id="name" class="input" type="text">
+            </div>
+            <div class="subCon subInp1">
+                <label for="">Email Id</label>
+                <input id="email" class="input" type="text">
+            </div>
+            <div class="subCon subInp1">
+                <label for="">Address</label>
+                <input id="address"  class="input" type="text">
+            </div>
+            <div class="input3Con subInp1">
+                <div class="subCon">
+                    <label for="">city</label>
+                    <input id="city" class="input3" type="text">
+                </div>
+                <div class="subCon">
+                    <label for="">state</label>
+                    <input id="state" class="input3" type="text">
+                </div>
+                <div class="subCon">
+                    <label for="">Zip</label>
+                    <input id="zip" class="input3" type="text" >
+                </div>
+            </div>
+            <div class="subCon subInp1">
+                <label for="">Country</label>
+                <input id="country" class="input" type="text">
+            </div>
+            
+            <p style="margin-left: 1.5vw;"><img style="width: 1vw; height: 1vw;" src="../Assets/image/lock.svg" alt=""> Payment Informetion</p>
+            <p style="margin-left: 1.5vw;">Billing Informetion</p>
+            <img style="margin-left: 7.8vw; width: 20.5vw;"  src="../Assets/image/atm.jpg" alt="">
+            <div class="subCon subInp1">
+                <label for="">Amount</label>
+                <input id="amount" class="input"  type="text">
+            </div>
+            <div class="subCon subInp1">
+                <label for="">Card Number</label>
+                <input id="cardNumber" class="input"  type="text">
+            </div>
+            <div class="input3Con">
+                <div class="subCon">
+                    <label for="">Expiry date</label>
+                    <input id="expiry" class="input3 input2" type="date" >
+                </div>
+                <div class="subCon">
+                    <label for="">CVV Number</label>
+                    <input id="cvv" class="input3 input2" type="number">
+                </div>
+            </div>
+             <p style="color: red; z-index: 2; margin-left: 8vw;" id="error" ></p>
+            <input  id="button" onclick="sub()" class="input" type="button" value="Submit">
+        </form>
+    </center>
+
+    <footer>
+        <div>
+            <img id="footerImg" src="../Assets/image/natureFooter.jpg" alt="">
+            <div id="footerImgTextCon">
+                <h3 style="color: white;">HOW YOU CAN DO GOOD & MAKE A DIFFERENCE</h3>
+                <button class="footerButton" onclick="donate(0)">DONATE NOW</button>
+            </div>
+        </div>
+        <center style="width: 100%; background-color: black;">
+            <div id="footerButtonCon">
+                <span class="foodButton">HOME </span>
+                <span class="foodButton">ABOUT US</span>
+                <span class="foodButton">OUR NGO SERVICES</span>
+                <span class="foodButton">DONATIONS</span>
+                <span class="foodButton">GALLERY</span>
+                <span class="foodButton">SPONSORS</span>
+                <span class="foodButton">CONTACT US</span>
+            </div>
+        </center>
+        <hr>
+        <div id="footerIconCon">
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/phone.png" alt="">
+                <p class="footerP">+250782137059</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/location.png" alt="">
+                <p class="footerP">A1 NGO SERVICES 23WV+V33, KG 7 Ave, Kigali, Rwanda</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/message.png" alt="">
+                <p class="footerP">info@alngo.com</p>
+            </div>
+        </div>
+        <hr>
+        <center><p class="footerP footer">2024 A1 NGO Services. All Rights Reserved.</p></center>
+    </footer>
+</body>
+</html>

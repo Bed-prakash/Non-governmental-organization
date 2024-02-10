@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO Payment Done Page</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/Donate.css">
+    <script src="../JavaScript/Index.js" defer></script>
+    <style>
+        .DONATION{
+            color: rgb(228, 210, 14);
+        }
+        #SuccessfullCon{
+            width: 100%;
+            height: 100vh;
+            background-color: green;
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body onload="Img()">
+    <nav>
+        <img id="logo" src="../Assets/image/logo.JPG" alt="">
+        <div id="navButton">
+            <a class="HOME" href="../index.html">HOME</a>
+            <a class="ABOUT" href="./About.html">ABOUT</a>
+            <a class="OUR" href="./Ourservice.html">OUR NGO SERVICE</a>
+            <a class="DONATION" href="./Donation.html">DONATION</a>
+            <a class="GALLERY" href="./Gallery.html">GALLERY</a>
+            <a class="SPONSORS" href="./Sponsors.html">SPONSORS</a>
+            <a class="CONTECT" href="./Contact.html">CONTACT</a>
+            <a  id="DOWNLOAD" href="./Amount.html">DONATE NOW</a>
+        </div>
+    </nav>
+    <a id="up-arrow-con" href="#"><img id="up-arrow" src="../Assets/image/up-arrow.png" alt=""></a>
+    <div id="SuccessfullCon">
+        <h1 style="color: white;">Donation Successfull</h1>
+        <h3>Thakyou for donation</h3>
+    </div>
+    <footer style="margin-top: 0px;">
+        <div>
+            <img id="footerImg" src="../Assets/image/natureFooter.jpg" alt="">
+            <div id="footerImgTextCon">
+                <h3 style="color: white;">HOW YOU CAN DO GOOD & MAKE A DIFFERENCE</h3>
+                <button class="footerButton" onclick="donate(0)">DONATE NOW</button>
+            </div>
+        </div>
+        <center style="width: 100%; background-color: black;">
+            <div id="footerButtonCon">
+                <span class="foodButton">HOME </span>
+                <span class="foodButton">ABOUT US</span>
+                <span class="foodButton">OUR NGO SERVICES</span>
+                <span class="foodButton">DONATIONS</span>
+                <span class="foodButton">GALLERY</span>
+                <span class="foodButton">SPONSORS</span>
+                <span class="foodButton">CONTACT US</span>
+            </div>
+        </center>
+        <hr>
+        <div id="footerIconCon">
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/phone.png" alt="">
+                <p class="footerP">+250782137059</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/location.png" alt="">
+                <p class="footerP">A1 NGO SERVICES 23WV+V33, KG 7 Ave, Kigali, Rwanda</p>
+            </div>
+            <div class="footerIconSubCon">
+                <img class="footerIcon" src="../Assets/icon/message.png" alt="">
+                <p class="footerP">info@alngo.com</p>
+            </div>
+        </div>
+        <hr>
+        <center><p class="footerP footer">2024 A1 NGO Services. All Rights Reserved.</p></center>
+    </footer>
+</body>
+</html>

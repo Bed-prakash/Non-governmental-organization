@@ -1,0 +1,295 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#navButton{
+    width: 80%;
+}
+#up-arrow{
+    width: 5vw;
+    height: 5vw;
+    position: fixed;
+    right: 1vw;
+    bottom: 1vw;
+    z-index: 5;
+    background-color: rgb(72, 232, 60);
+    border: 1px solid black;
+    border-radius: 100%;
+}
+#up-arrow-con{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: white; 
+    height: 99%;
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    /* background-color: black; */
+    border-bottom: 2px solid black;
+    border-top:2px solid black ;
+    
+}
+a:active{
+    color: rgb(229, 191, 5);
+}
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 10;
+    border: 2px solid rgb(14, 186, 216);
+    width: 100%;
+    height: 5vw;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-self: center;
+}
+#DOWNLOAD{
+    width: 13vw;
+    height: 2vw;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+#img1{
+    width: 100%;
+    height: 50vw;
+    margin-top: 5vw;
+}
+#text{
+    position: absolute;
+    top: 23vw;
+}
+#logo{
+    width: 7vw;
+    height: 5vw;
+}
+.button{
+    margin-left: 10vw;
+    margin-top: 1vw;
+    color: white;
+    background-color: transparent;
+}
+.btn{
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    background-color: rgba(0, 255, 251, 0.656);
+    transition: all 0.5s;
+    /* border-radius: 10px; */
+}
+.btn:hover{
+    background-color: rgba(0, 255, 251, 1);
+}
+h1{
+    font-size: 2vw;
+}
+.A1Text{
+    width: 70%;
+    height: 30vw;
+    margin-left: 15%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 4vw;
+    letter-spacing: 0.3vw;
+    color: rgba(0, 0, 0, 0.883);
+}
+h3{
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+}
+p{
+    font-size: 1.5vw;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.883);
+}
+#ourNgo{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 15vw;
+    margin-top: 1vw;
+}
+.img3{
+    width: 100%;
+    height: 15vw;
+}
+#img3Con{
+    width: 100%;
+    justify-content: space-evenly;
+    height: 30vw;
+    background-color: black;
+}
+.p{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    color: white;
+    word-spacing: 0.4vw;
+    text-align: center;
+}
+.subimg3Con{
+    width: 25%;
+}
+#galleryContainer{
+    margin-top: 12vw;
+    width: 100%;
+}
+#img4Con{
+    margin-top: 7vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 52vw;
+
+}
+.img4{
+    margin: 2.4vw;
+    width: 20%;
+    height: 45%;
+}
+#connectusCon{
+width: 100%;
+height: 39vw;
+flex-direction: column;
+background-color: rgb(243, 243, 243);
+}
+#connectusSubCon{
+    justify-content: center;
+    align-items: center;
+}
+#connectus{
+    height: 10vw;
+}
+#iconCon{
+    width: 60%;
+}
+.iconImg{
+    width: 5vw;
+    height: 5vw;
+    border: 1.5px dashed black;
+    border-radius: 100%;
+    transition: all 0.5s;
+}
+.iconImg:hover{
+    transform: scale(1.1);
+}
+#storiesCon{
+width: 100%;
+height: 44vw;
+background-color: black;
+flex-direction: column;
+}
+#ImgCon{
+    flex-direction: row;
+    width: 90%;
+}
+.Img2{
+    width: 25vw;
+    height: 25vw;
+}
+#footerImg{
+    width: 100%;
+    height: 12vw;
+}
+#footerImgTextCon{
+    margin-top: -6vw;
+    width: 100%;
+    /* background-color: bisque; */
+    flex-direction: row;
+}
+.footerButton{
+    width: 15vw;
+    height: 3.5vw;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    font-weight: bold;
+    background-color: rgb(240, 181, 19);
+    transition: all 0.5s;
+}
+.footerButton:hover{
+    background-color: rgb(240, 181, 19,0.9);
+}
+button{
+    box-shadow: 5px 5px 5px black;
+}
+#footerButtonCon{
+    width: 70%;
+    height: 10vw;
+    /* background-color: bisque; */
+}
+.foodButton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1vw;
+    color: white;
+    padding-right: 3%;
+    border-right: 2px solid white;
+}
+#footerIconCon{
+    /* margin-top: 1vw; */
+    height: 20vw;
+    position: relative;
+    width: 100%;
+    background-color: black;
+}
+.footerIcon{
+    width: 5vw;
+    height: 5vw;
+    transition: all 0.5s;
+}
+.footerIconSubCon{
+    width: 12%;
+    height: 12vw;
+    padding: 2vw;
+    border: 2px solid white;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.819);
+}
+.footerIconSubCon:hover .footerIcon{
+    transform: scale(1.1);
+}
+.footerP{
+    color: white;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    padding-top: 1.5vw;
+    padding-bottom: 2vw;
+}
+footer{
+    margin-top: 5vw;
+}
+
+
+
+.footerIconSubCon,#footerIconCon,#navButton,#img3Con,#galleryContainer,#connectusCon,#connectusCon,#iconCon,#storiesCon,#ImgCon,#footerImgTextCon,#footerButtonCon{
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}

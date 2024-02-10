@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.aboutCon,#mission,.aboutTextCon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutCon,#mission{
+    width: 100%;
+    margin-top: 5vw;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.text{
+    width: 50%;
+}
+.aboutTextCon{
+    flex-direction: row;
+}
+.imgCon{
+    width: 35%;
+    height: 50%;
+}
+.img{
+    width: 100%;
+    height: 60%;
+    border-radius: 5vw;
+}
