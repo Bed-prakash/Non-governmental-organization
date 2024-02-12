@@ -1,4 +1,4 @@
-#Non-governmental organization Project:
+# Non-governmental organization Project:
 "I have created a GitHub repository for a non-governmental organization (NGO) project. The NGO focuses on assisting helpless and disabled children, aiming to alleviate their problems. The project includes the following functionalities:
 1.	Home page: Detailed information about the NGO is provided.
 2.	About page: Describes the NGO's work culture.
